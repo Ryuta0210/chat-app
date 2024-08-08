@@ -1,0 +1,162 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  background-color: #2f3e51;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-bar-top{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-bar-top-a{
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.side-bar-top-b{
+  padding: 14px;
+  border: 1px, solid, lightblue;
+}
+
+.side-bar-top a{
+  color: lightblue;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.side-bar-content{
+  height: calc(100% - 100px);
+  background-color: #2f3e51;
+  padding: 20px 20px 0 20px;
+   overflow: scroll
+}
+
+.side-bar-content-a{
+  margin: 0 0 40px 0;
+}
+
+.side-bar-content-a a{
+  color: white;
+  text-decoration: none;
+}
+
+.chat{
+  width: calc(100vw - 300px );
+  background-color:#fFFFFF
+}
+
+.chat-top{
+  background-color:#FFFFFF;
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-top-group-name{
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.chat-top-ending-chat{
+  border: 1px solid darkred;
+  margin: auto 0;
+  padding: 20px;
+}
+
+.chat-top-ending-chat a{
+  color: darkred;
+  text-decoration: none;
+}
+
+
+.chat-middle{
+  background-color: #fafafa;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0 40px;
+  overflow: scroll;
+}
+
+.chat-middle-content{
+  margin-bottom: 40px;
+}
+
+.chat-middle-content-a{
+  display: flex;
+}
+
+.chat-middle-content-a-name{
+  margin: 10px 10px 10px 0;
+  font-size: 16px;
+  color: #434A54;
+}
+
+.chat-middle-content-a-time{
+  margin: 10px 0 10px 0;
+  font-size: 12px;
+  color: #999;
+}
+
+.chat-middle-content-b-content{
+  font-size: 14px;
+  color: #434A54;
+}
+
+
+
+
+
+.chat-bottom{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.chat-bottom-content{
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.chat-bottom-content-message{
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+
+.chat-bottom-content-image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.chat-bottom-content-send{
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  background-color: #38aef0;
+  border: none;
+  padding: 0 20px;
+  margin-left: 15px;
+}
+
