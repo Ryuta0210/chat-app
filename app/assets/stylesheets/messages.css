@@ -12,14 +12,42 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-bar-top-a{
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.side-bar-top-b{
+  padding: 14px;
+  border: 1px, solid, lightblue;
+}
+
+.side-bar-top a{
+  color: lightblue;
+  font-size: 10px;
+  text-decoration: none;
 }
 
 .side-bar-content{
   height: calc(100% - 100px);
   background-color: #2f3e51;
-  padding: 0 20px;
+  padding: 20px 20px 0 20px;
+   overflow: scroll
 }
 
+.side-bar-content-a{
+  margin: 0 0 40px 0;
+}
+
+.side-bar-content-a a{
+  color: white;
+  text-decoration: none;
+}
 
 .chat{
   width: calc(100vw - 300px );
