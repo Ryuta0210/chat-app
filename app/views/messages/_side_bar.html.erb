@@ -1,6 +1,10 @@
 <div class="side-bar-top">
-  <div class="side-bar-top-a">Ryuta</div>
-  <div class="side-bar-top-b"><a href="###">Create Chat</a></div>
+  <div class="side-bar-top-a">
+    <%=link_to current_user.name, edit_user_path(current_user)%>
+  </div>
+  <div class="side-bar-top-b">
+    <%=link_to "Create Chat", new_message_path %>
+  </div>
 </div>
 <div class="side-bar-content">
   <div class="side-bar-content-a">
