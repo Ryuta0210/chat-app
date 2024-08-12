@@ -9,7 +9,7 @@
 <div class="side-bar-content">
   <div class="side-bar-content-a">
     <% current_user.rooms.each do |room|%>
-    <%=link_to "room.name",  %>
+    <%= room.name  %>
     <%end%>
   </div>
 
