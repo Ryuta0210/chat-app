@@ -34,20 +34,21 @@
   text-decoration: none;
 }
 
-.side-bar-content{
+.rooms{
   height: calc(100% - 100px);
   background-color: #2f3e51;
   padding: 20px 20px 0 20px;
-   overflow: scroll
+  overflow: scroll
 }
 
-.side-bar-content-a{
+.room{
   margin: 0 0 40px 0;
 }
 
-.side-bar-content-a a{
+.room a{
   color: white;
   text-decoration: none;
+  display: block;
 }
 
 .chat{
@@ -117,27 +118,37 @@
 
 
 
-.chat-bottom{
+.form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
   display: flex;
 }
 
-.chat-bottom-content{
+.form-input {
   background-color: white;
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
-.chat-bottom-content-message{
-  padding: 10px;
+.form-message {
+  border: none;
   height: 50px;
   width: 100%;
-  border: none;
+  padding-left: 10px;
 }
 
-.chat-bottom-content-image{
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
   font-size: 12px;
   background-color: lightblue;
   color: white;
@@ -147,17 +158,6 @@
   text-align: center;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
-
-.chat-bottom-content-send{
-  height: 50px;
-  font-size: 16px;
-  color: white;
-  background-color: #38aef0;
-  border: none;
-  padding: 0 20px;
-  margin-left: 15px;
-}
-
