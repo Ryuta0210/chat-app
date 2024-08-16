@@ -6,12 +6,11 @@
     <%=link_to "Create Chat", new_room_path %>
   </div>
 </div>
-<div class="side-bar-content">
-  <div class="side-bar-content-a">
+<div class="rooms">
     <% current_user.rooms.each do |room|%>
-    <%= room.name  %>
+      <div class="room">
+        <%= link_to room.name, room_messages_path(room)  %>
+      </div>
     <%end%>
-  </div>
-
 
 </div>
