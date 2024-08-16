@@ -1,0 +1,10 @@
+<div class="chat-middle">
+  <div class="chat-middle-content">
+    <% messages.each do |message| %>
+    <div class="chat-middle-content-a">
+      <div class="chat-middle-content-a-name"><%= message.user.name%></div>
+      <div class="chat-middle-content-a-time"><%= message.created_at%></div>
+    </div>
+  </div>
+  <%end%>
+</div>

@@ -4,17 +4,7 @@
 </div>
 
 <div class="chat-middle">
-  <div class="chat-middle-content">
-    <div class="chat-middle-content-a">
-      
-      <div class="chat-middle-content-a-name">Tom</div>
-      <div class="chat-middle-content-a-time">2020/3/31(Wed) 12:43:40</div>
-    </div>
-    <div class="chat-middle-content-b">
-      <div class="chat-middle-content-b-content">おはよう</div>
-    </div>
-  </div>
-
+  <%= render partial: "message", collection: @messages%>
 </div>
 
 <%= form_with model: [@room, @message], html: {class: "form"}, local: true do |f| %>
