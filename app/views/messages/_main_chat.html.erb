@@ -12,7 +12,7 @@
     <%= f.text_field :content, class: "form-message", placeholder: "type a message" %>
     <label class="form-image">
       <span class="image-file">Image</span>
-      <%= f.text_field :image, class: "hidden" %>
+      <%= f.file_field :image, class: "hidden" %>
     </label>
   </div>
   <%= f.submit "SEND", class: "form-submit"%>
